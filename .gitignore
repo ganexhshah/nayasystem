@@ -12,6 +12,7 @@ frontend/.turbo/
 frontend/.env
 frontend/.env.*
 !frontend/.env.example
+!frontend/.env.production
 frontend/.git_backup/
 
 # Backend (Laravel)
@@ -40,6 +41,11 @@ temp/
 coverage/
 dist/
 build/
+**/logs/
+**/cache/
+**/build/
+**/.next/
+**/node_modules/
 
 # OS / Editor
 .DS_Store
